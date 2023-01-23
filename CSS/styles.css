@@ -3,13 +3,13 @@
 }
 
 .largetext {
-    font-size: 8vw;
+    font-size: 500%;
 }
 
 .mediumtext {
-    font-size: 5vw;
+    font-size: 300%;
 }
 
 .smalltext {
-    font-size: 3vw;
+    font-size: 200%;
 }
