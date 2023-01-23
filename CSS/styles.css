@@ -2,14 +2,18 @@
     text-align: center;
 }
 
-.largetext {
-    font-size: 500%;
+body {
+    font-size: 100%;
 }
 
-.mediumtext {
-    font-size: 300%;
+h1 {
+    font-size: 6em;
 }
 
-.smalltext {
-    font-size: 200%;
+h3 {
+    font-size: 5em;
+}
+
+p {
+    font-size: 3em;
 }
