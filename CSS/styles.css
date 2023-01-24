@@ -1,8 +1,12 @@
-.centered {
+.mainheading {
     text-align: center;
 }
 
-.centeredborder {
+.secondheading {
+    text-align: center;
+}
+
+.mainparagraphs {
     text-align: center;
     border: 1px solid gray;
     font-size: 2em;
