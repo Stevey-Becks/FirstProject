@@ -1,5 +1,6 @@
 #root {
-    background-color: slategray;
+    background-color: #070824;
+    color: #b7b7b7;
 }
 
 #mainheading {
@@ -15,11 +16,10 @@
     border-top: 3px solid black;
     border-bottom: 3px solid black;
     font-size: 2em;
-    margin: 10px;
+    background-color: #1c1d27;
 }
 
 .social {
-    border: 1px solid black;
     padding-top: 15px;
     padding-bottom: 15px;
     text-align: center;
@@ -28,6 +28,7 @@
 
 .sociallinks {
     text-align: center;
+    color: aliceblue;
     font-size: 3em;
 }
 
