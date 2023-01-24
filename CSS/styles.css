@@ -19,15 +19,16 @@
 }
 
 .social {
-    border-bottom: 1px solid black;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    border: 1px solid black;
+    padding-top: 15px;
+    padding-bottom: 15px;
     text-align: center;
     font-size: 4em;
 }
 
 .sociallinks {
     text-align: center;
+    font-size: 3em;
 }
 
 body {
