@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html id="root">
+<html>
     <head>
 
         <meta charset="UTF-8">
@@ -9,33 +9,59 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <link href="CSS/styles.css" rel="stylesheet">
+        
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+        <link rel="manifest" href="favicon/site.webmanifest">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" 
+        rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 
         <title>Steven Beckham</title>
 
     </head>
     <body>
-        <div class="titlehead">
-            <div class="heading">
-                Steven Beckham
-            </div>
-            <div class="sociallinks">
-                <a href="https://facebook.com/StevenCBeckham">FACEBOOK</a>
-            </div>
-            <div class="sociallinks">
-                <a href="https://instagram.com/SteveyBecks">INSTAGRAM</a>
-            </div>
-            <div class="sociallinks">
-                <a href="https://github.com/Stevey-Becks">GITHUB</a>
+
+        <style>
+            .custom-row {
+                background-color: #3E065F;
+                border: 3px solid #700B97;
+                color: white;
+                font-size: 200%;
+                padding: 10px;
+            }
+        </style>
+
+        <div class="container-fluid">
+            <div class="row custom-row">
+                <div class="col-lg-2">
+                    Steven Beckham
+                </div>
+                <div class="col-lg-2">
+                    <div class="dropdown">
+                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Social Media
+                        </a>
+                      
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="https://facebook.com/stevencbeckham">Facebook</a></li>
+                          <li><a class="dropdown-item" href="https://instagram.com/steveybecks">Instagram</a></li>
+                          <li><a class="dropdown-item" href="https://github.com/stevey-becks">Github</a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
 
-        <div id="aboutme">
-            <div class="aboutme_text">
-                My name is Steven Beckham and I am a self-learning software engineer.
-            </div>
-            <div class="aboutme_text">
-                This is my first attempt at creating a website!
-            </div>
-        </div>
+
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" 
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" 
+        integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
     </body>
 </html>
